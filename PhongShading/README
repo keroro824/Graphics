@@ -1,0 +1,10 @@
+Beidi Chen (cs184-bb) & Yanming Chen (cs184-az)
+OS X
+Beidi Chen (cs184-bb) does the submission (OS X)
+
+Extra Credit:
+We do the the Multiple spheres.
+It is based on If in the command line we have "-multis x y r", (x,y and r are float), a sphere with location (x, y) and radius r will be displayed. 
+
+To draw multiple spheres, first use -multis flag for every single sphere you want to add in, then followed by x, y and r which specify each sphere's x-coordinate, y-coordinate and radius respectively. e.g."-multis 100 100 100 -multis -100 -100 100" will add two spheres both having radius 100 in the window. To have a reasonable upper limit, no more than 100 spheres can be added onto the graph.
+

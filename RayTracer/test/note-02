@@ -1,0 +1,13 @@
+Plateform: OSX
+
+Resolution:640*480
+
+Compilation: type "make" to compile the file
+
+Reproduction: type ./RayTracer.o -input test/input-02
+
+Features: Phong shading, reflection, shadowing, 2 directional light source, applied series of linear transformations including translate, scale and rotate.
+
+Output: image-02.png 
+
+running time: around 40 minutes

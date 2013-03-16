@@ -1,0 +1,13 @@
+Plateform: OSX
+
+Resolution: 640*480
+
+Compilation: type "make" to compile the file
+
+Reproduction: type ./RayTracer.o -input test/input-04
+
+Features: 1000 spheres with Phong shading, reflection, shadowing, 1 point light source and 1 directional light source, applied complex linear transformations including translate.
+
+Output: image-04.png 
+
+running time: around 5 hours

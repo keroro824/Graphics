@@ -1,0 +1,13 @@
+Plateform: OSX
+
+Resolution: 640*480
+
+Compilation: type "make" to compile the file
+
+Reproduction: type ./RayTracer.o -input test/input-03
+
+Features: same with image-02, but this time wall has no reflection on the wall
+
+Output: image-03.png 
+
+running time: around 20 minutes

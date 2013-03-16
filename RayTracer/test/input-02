@@ -1,0 +1,233 @@
+#Not-Cornell Box
+size 640 480
+camera 0 0 1 0 0.2 -1 0 1 0 45
+output image-02.png
+
+maxdepth 1
+
+
+
+maxverts 12
+#planar face
+vertex -1 +1 0
+vertex -1 -1 0
+vertex +1 -1 0
+vertex +1 +1 0
+
+#cube
+vertex -1 +1 +1
+vertex +1 +1 +1
+vertex -1 -1 +1
+vertex +1 -1 +1
+
+vertex -1 +1 -1
+vertex +1 +1 -1
+vertex -1 -1 -1
+vertex +1 -1 -1
+
+
+ambient 0 0 0
+specular 0.6 0.6 0.6
+shininess 20
+emission 0 0 0
+diffuse 0 0 0
+
+attenuation 1 0.1 0.05
+
+point -0.5 0.5 1.2 0.6 0.6 0.6
+#point -0.5 0.5 -1 0.8 0.8 0.8
+#directional 0 1 -1 0.2 0.2 0.2
+directional 0 0 1 0.4 0.4 0.4
+
+pushTransform
+scale 0.8 1 1
+
+#purple
+pushTransform
+translate 0 0 -3
+rotate 0 1 0 60
+scale 10 10 1
+diffuse 0.2823 0.27 0.618
+specular 0.4 0.4 0.4
+tri 0 1 2
+tri 0 2 3
+popTransform
+
+#purple
+pushTransform
+translate 0 0 -3
+rotate 0 1 0 -60
+scale 10 10 1
+diffuse 0.2823 0.27 0.618
+specular 0.4 0.4 0.4
+tri 0 1 2
+tri 0 2 3
+popTransform
+
+#back
+pushTransform
+scale 10 10 1
+translate 0 0 -2
+diffuse 0.78 0.78 0.78
+tri 0 1 2
+tri 0 2 3
+popTransform
+
+#top
+pushTransform
+translate 0 0.5 0
+rotate 1 0 0 60
+translate 0 0 -1
+scale 10 10 1
+diffuse 0.78 0.78 0.78
+tri 0 1 2
+tri 0 2 3
+popTransform
+
+#bottom
+pushTransform
+translate 0 -0.5 0
+rotate 1 0 0 -60
+translate 0 0 -1
+scale 10 10 1
+diffuse 0.78 0.78 0.78
+tri 0 1 2
+tri 0 2 3
+popTransform
+
+#sphere
+diffuse 1 0.894 1
+specular 0.6 0.6 0.6
+pushTransform
+translate 0 0.5 -1.5
+scale 0.1 0.1 0.1
+sphere 0 0 0 1.35
+popTransform
+
+#sphere2
+diffuse 1 0.894 0.71
+specular 0.4 0.4 0.4
+pushTransform
+translate -0.25 0.433 -1.4
+scale 0.1 0.1 0.1
+sphere 0 0 0 1.35
+popTransform
+
+#sphere3
+diffuse 1 0.98 0.804
+specular 0.3 0.3 0.3
+pushTransform
+translate -0.433 0.25 -1.3
+scale 0.1 0.1 0.1
+sphere 0 0 0 1.35
+popTransform
+
+#sphere4
+diffuse 0.941 1 0.941
+specular 0.2 0.2 0.2
+pushTransform
+translate -0.5 0 -1.2
+scale 0.1 0.1 0.1
+sphere 0 0 0 1.35
+popTransform
+
+#sphere5
+diffuse 0.941 1 1
+specular 0.2 0.2 0.2
+pushTransform
+translate -0.433 -0.25 -1.1
+scale 0.1 0.1 0.1
+sphere 0 0 0 1.35
+popTransform
+
+#sphere6
+diffuse 0.941 0.961 1
+specular 0.2 0.2 0.2
+pushTransform
+translate  -0.25 -0.433 -1
+scale 0.1 0.1 0.1
+sphere 0 0 0 1.35
+popTransform
+
+#sphere7
+diffuse 0.902 0.902 0.98
+specular 0.2 0.2 0.2
+pushTransform
+translate 0 -0.5 -0.9
+scale 0.1 0.1 0.1
+sphere 0 0 0 1.35
+popTransform
+
+#sphere8
+diffuse 1 0.894 1
+specular 0.2 0.2 0.2
+pushTransform
+translate 0.25 -0.433 -0.8
+scale 0.1 0.1 0.1
+sphere 0 0 0 1.35
+popTransform
+
+#sphere9
+diffuse 1 0.894 0.71
+specular 0.2 0.2 0.2
+pushTransform
+translate 0.433 -0.25 -0.7
+scale 0.1 0.1 0.1
+sphere 0 0 0 1.35
+popTransform
+
+#sphere10
+diffuse 1 0.98 0.804
+specular 0.2 0.2 0.2
+pushTransform
+translate 0.5 0 -0.6
+scale 0.1 0.1 0.1
+sphere 0 0 0 1.35
+popTransform
+
+#sphere11
+diffuse 0.941 1 0.941
+specular 0.2 0.2 0.2
+pushTransform
+translate 0.433 0.25 -0.5
+scale 0.1 0.1 0.1
+sphere 0 0 0 1.35
+popTransform
+
+#sphere12
+diffuse 0.941 0.961 1
+specular 0.2 0.2 0.2
+pushTransform
+translate 0.25 0.433 -0.4
+scale 0.1 0.1 0.1
+sphere 0 0 0 1.35
+popTransform
+
+#sphere13
+diffuse 1 0.894 1
+specular 0.2 0.2 0.2
+pushTransform
+translate 0 0.5 -0.3
+scale 0.1 0.1 0.1
+sphere 0 0 0 1.35
+popTransform
+
+#sphere14
+diffuse 1 0.894 0.71
+specular 0.2 0.2 0.2
+pushTransform
+translate -0.25 0.433 -0.2
+scale 0.1 0.1 0.1
+sphere 0 0 0 1.35
+popTransform
+
+#sphere15
+diffuse 1 0.98 0.804
+specular 0.2 0.2 0.2
+pushTransform
+translate -0.433 0.25 -0.1
+scale 0.1 0.1 0.1
+sphere 0 0 0 1.35
+popTransform
+
+popTransform

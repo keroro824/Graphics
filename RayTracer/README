@@ -1,0 +1,17 @@
+Name: Beidi Chen (cs184-bb)
+Partner: Yanming Chen (cs184-az)
+
+
+Platform: OSX 10.8
+
+Location: Yanming Chen (cs184-az) submitted on Mar 10 with Mac OSX. All source codes are in the same file homeworks/RayTracer/RayTracer.cpp. 
+
+Compilation: To compile, change directory into homeworks/RayTracer/, then type "amke" to make the file(tested on Barry.cs.berkeley.edu).
+
+Run: To run, type ./RayTracer.o -input <path to testfile> (e.g. ./RayTracer.o -input test/input-01)
+
+Example scenes: sample scenes together with its input file and note file are all located at RayTracer/test/. Index number at end of image corresponds to the input file and note file with the same index.
+
+[Emergency note: if Makfile doesn't work, (it happens with prob. 0.0000001 but just in case)compile with g++ -lfreeimage -L./lib/mac/ RayTracer.cpp -o RayTracer.o]
+
+

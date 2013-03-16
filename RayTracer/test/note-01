@@ -1,0 +1,13 @@
+Plateform: OSX
+
+Resolution: 1024*680
+
+Compilation: type "make" to compile the file
+
+Reproduction: type ./RayTracer.o -input test/input-01
+
+Features: Rendering on polygons and ellipsoid, Phong shading, reflection, shadowing, 2 point light source and 2 directional light source, applied linear transformations including translate, scale and rotate.
+
+Output: image-01.png 
+
+running time: around 60 minutes

@@ -1,0 +1,13 @@
+Plateform: OSX
+
+Resolution: 640*480
+
+Compilation: type "make" to compile the file
+
+Reproduction: type ./RayTracer.o -input test/input-05
+
+Features: ellipsoid, Phong shading, reflection, shadowing, applied linear transformations including translate, scale and rotate.
+
+Output: image-05.png 
+
+running time: around 40 minutes
